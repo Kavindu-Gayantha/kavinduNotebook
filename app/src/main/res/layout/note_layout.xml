@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="horizontal">
+
     <android.support.v7.widget.AppCompatCheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,8 +23,30 @@
             android:layout_margin="4dp"
             android:layout_marginBottom="3dp"
             android:textSize="18sp"
-            android:text="this is a demo for note pad.."
+            android:text="this is a demo for note pad.. for the practise of making android apps in android studio "
+            android:maxLines="3"
             />
+        <TextView
+            android:id="@+id/note_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:text="05/06/2019"
+            android:textSize="12sp"
+            android:layout_margin="4dp"
+
+            />
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="#c7c7c7"
+
+            />
+
 
     </LinearLayout>
 
